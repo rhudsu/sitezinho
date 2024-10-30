@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(194, 223, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    position: absolute;
+    top: 220px;
+    width: 500px;
+    margin-left: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    z-index: 1;
+}
+fieldset{ 
+    padding: 18px, 35px;
+    border: 100px;  
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+} 
+fieldset input, textarea{
+    border: none;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid 1px;
+}
+ 
+ 
+
+svg{
+    position: absolute;
+    color: #ff0000;
+    left: 520px;
+    top: 200px;
+    z-index: -1;
+    border-radius: 20px;
+}
+#idmsg{
+    height: 100px;
+}
+.button{
+    margin-left: 195px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    width: 25%;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+h1{
+ 
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+    border: solid 10px;
+    padding: 10px;
+}
+
+
