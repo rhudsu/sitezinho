@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    margin: auto;
+	overflow: hidden;
+}
+
+nav 
+{
+    top: 0px;
+    padding-left: 300px;
+    display: block;
+    position: absolute;
+    z-index:1;
+}
+nav ul{
+     
+    background: "fff";
+    padding: 0;
+    height: 38px;
+    width: 1015px;
+    list-style: none;
+    border-radius: 20px;
+}
+nav ul li{
+    float: left;
+    border-left: 3px solid #ac15efa6;
+    border-right: 3px solid #ac15efa6;
+    border-radius: 20px;
+
+}
+nav ul li a:hover{
+ 
+    color: #fff;
+    background: linear-gradient(265.27deg, #ae15efa6 20.55%, #c702adbb 94.17%);
+    border-radius: 16px;
+}
+/* escrito e hover */
+nav ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 137px;
+    line-height: 2em;
+    text-align: center;
+}
+
+ 
+.maos{
+    width: 75%;
+}
+
+#maocima{
+    transform: rotate(15deg);
+    position: relative;
+    left: 800px;
+    top: -150px;
+    
+}
+
+#maobaixo{
+    transform: rotate(10deg);
+    position: relative;
+    left: -300px;
+    top: -350px;
+    
+}
+ 
+
+.hidden-image {
+    display: none;
+    position: absolute;
+    top: 0; /* Ajuste conforme necessário */
+    transform: translateX(-50%);
+    width: 5%;
+}
+
+nav ul li a:hover .hidden-image {
+    display: block;
+}
+
